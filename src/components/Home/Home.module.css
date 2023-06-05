@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+.title {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-top: 4px;
+}
+.controles {
+  color: #fff;
+  margin-left: 4rem;
+  font-size: 2rem;
+}
+.contatos {
+  flex-direction: column;
+  margin-left: 20rem;
+  background-color: #16151E;
+  border-radius: 8px; 
+}
+.headerContatos {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  padding-bottom: 1rem;
+  
+}
+.buttons {
+  margin-top: 1rem;
+  margin-left: 18.5rem;
+}
+.buttom {
+  height: 3.2rem;
+  width:  3.2rem;
+  align-items: center;
+  background-color: var(--color-bg-blueDark);
+  color: #fff;
+  border: transparent;
+  margin-left: 0,.8rem;
+  font-size: 1.7rem;
+  padding-top: 0.3rem;
+   
+}
+.pesquisa {
+  align-items: center;
+  margin-bottom: 1.5rem;
+  background-color: #24243D;
+  border-radius:3px;
+  margin-right: 5rem;
+}
+.buttomPesquisa {
+  background-color: #24243D;
+  height: 3.3rem;
+  width: 5rem;
+  border: transparent;
+  color: #fff;
+  font-size: 1.5rem;
+  border-top-left-radius: 6rem;
+  border-bottom-left-radius: 6rem;
+}
+.inputPesquisa {
+  background-color: #24243D;
+  height: 3.5rem;
+  width: 38.5rem;
+  border: transparent ;
+  font-size: medium;
+  color: #fff;
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+.listaContatos {
+  background-color: #1A1924;
+  padding: 6rem;
+  width: 100%;
+  border-radius: 8px; 
+}
+
+.listaCatalogo {
+  display: flex;
+  flex:1;
+  flex-direction: row;
+}
+.letraCatalogo {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 5px;
+  background-color: #1A1924;
+  border: 1px solid  #1A1924;
+  font-size: 2rem;
+  margin-right: 4rem;
+  margin-top: 4rem;
+  text-align: center;
+  padding-top: 0.2rem;
+}
