@@ -87,7 +87,7 @@ export function Home() {
     <div className={style.container}>
 
       <CardPerson
-        cover="https://images.unsplash.com/photo-1607743386760-88ac62b89b8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=350&q=80"
+        cover="https://images.ecycle.com.br/wp-content/uploads/2021/05/20195924/o-que-e-paisagem.jpg"
         avatar="https://github.com/henriquewagner.png"
         name="Henrique Bernard Wagner"
         office='Web Developer' />
